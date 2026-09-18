@@ -1,0 +1,516 @@
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Title displayed on the browser tab -->
+    <title>N.L. Rikhotso Foundation | Shop Now</title>
+
+</head>
+
+<body>
+
+    <!-- ==================================================
+         CSS STYLING SECTION
+
+         ================================================== -->
+
+    <style>
+
+        /* Styles the entire webpage */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f0f7;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Styles the navigation bar */
+        nav {
+            background-color: #7b1fa2;
+            padding: 20px;
+        }
+
+        /* Styles the navigation links */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        /* Changes the navigation link colour
+           when the mouse pointer is over it */
+        nav a:hover {
+            color: #ffd54f;
+        }
+
+        /* Styles the main heading */
+        h1 {
+            color: #7b1fa2;
+            font-size: 36px;
+        }
+
+        /* Styles the product category headings */
+        h2 {
+            color: #7b1fa2;
+            font-size: 28px;
+            margin-top: 30px;
+        }
+
+        /* Styles the individual product headings */
+        h3 {
+            color: #9c27b0;
+            font-size: 21px;
+        }
+
+        /* Styles all paragraphs */
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 15px auto;
+        }
+
+        /* Styles the horizontal lines separating
+           the different product categories */
+        hr {
+            border: 0;
+            border-top: 2px solid #ddd;
+            margin: 30px auto;
+            width: 80%;
+        }
+
+        /* Styles each individual product box */
+        .product {
+            background-color: white;
+            width: 280px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+
+            /* Adds a shadow around each product */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Styles the product images */
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* Makes the product image slightly larger
+           when the mouse pointer is over it */
+        .product img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Styles the order buttons */
+        .order-button {
+            display: inline-block;
+            background-color: #7b1fa2;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        /* Changes the order button colour
+           when the mouse pointer is over it */
+        .order-button:hover {
+            background-color: #9c27b0;
+        }
+
+        /* Styles the footer */
+        footer {
+            background-color: #7b1fa2;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* Removes the margin from the footer paragraph */
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+
+
+    <!-- ==================================================
+         NAVIGATION BAR
+         ================================================== -->
+
+    <!-- Navigation menu for moving between website pages -->
+    <nav>
+
+        <!-- Link to the Home page -->
+        <a href="home.html">HOME</a> |
+
+        <!-- Link to the Products page -->
+        <a href="Products.html">PRODUCTS</a> |
+
+        <!-- Link to the Shopping page -->
+        <a href="shop.html">SHOP HERE</a> |
+
+        <!-- Link to the About Us page -->
+        <a href="about.html">ABOUT US</a> |
+
+        <!-- Link to the Contact page -->
+        <a href="contact.html">CONTACT</a>
+
+    </nav>
+
+
+    <!-- ==================================================
+         SHOP NOW INTRODUCTION
+         ================================================== -->
+
+    <!-- Main heading -->
+    <h1>SHOP NOW</h1>
+
+
+    <!-- Button that takes customers to the contact page -->
+    <p>
+        <a class="order-button" href="contact.html">
+            CONTACT US TO ORDER
+        </a>
+    </p>
+
+
+    <!-- Introduction to the online store -->
+    <p>
+        Welcome to the N.L. Rikhotso Foundation Cancer Care Products Store.
+        Browse our products and choose items that provide comfort,
+        care and support.
+    </p>
+
+
+    <!-- Separates the introduction from the products -->
+    <hr>
+
+
+    <!-- ==================================================
+         SKIN CARE PRODUCTS
+         ================================================== -->
+
+    <!-- Product category heading -->
+    <h2>SKIN CARE PRODUCTS</h2>
+
+    <!-- Description of the skin care category -->
+    <p>
+        Gentle skin care products for people who need extra care
+        for dry or sensitive skin.
+    </p>
+
+
+    <!-- Product 1: Moisturising Cream -->
+    <div class="product">
+
+        <h3>Moisturising Cream - R80</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/moisturising cream.png"
+             alt="Moisturising Cream">
+
+        <!-- Product description -->
+        <p>
+            Gentle moisturising cream for dry and sensitive skin.
+        </p>
+
+    </div>
+
+
+    <!-- Product 2: Body Lotion -->
+    <div class="product">
+
+        <h3>Body Lotion - R70</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/body lotion.png"
+             alt="Body Lotion">
+
+        <!-- Product description -->
+        <p>
+            Soft and gentle lotion for everyday skin care.
+        </p>
+
+    </div>
+
+
+    <!-- Product 3: Lip Balm -->
+    <div class="product">
+
+        <h3>Lip Balm - R35</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/lip balm.png"
+             alt="Lip Balm">
+
+        <!-- Product description -->
+        <p>
+            Helps keep dry lips moisturised and comfortable.
+        </p>
+
+    </div>
+
+
+    <!-- Separates product categories -->
+    <hr>
+
+
+    <!-- ==================================================
+         WIGS
+         ================================================== -->
+
+    <!-- Wigs category heading -->
+    <h2>WIGS</h2>
+
+    <!-- Description of wigs -->
+    <p>
+        Comfortable wigs available in different styles and colours.
+    </p>
+
+
+    <!-- Product 1: Short Style Wig -->
+    <div class="product">
+
+        <h3>Short Style Wig - R450</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/short wig.png"
+             alt="Short Style Wig">
+
+        <!-- Product description -->
+        <p>
+            A simple and comfortable short wig for everyday wear.
+        </p>
+
+    </div>
+
+
+    <!-- Product 2: Medium Style Wig -->
+    <div class="product">
+
+        <h3>Medium Style Wig - R550</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/medium wig.png"
+             alt="Medium Style Wig">
+
+        <!-- Product description -->
+        <p>
+            A comfortable medium-length wig available in different styles.
+        </p>
+
+    </div>
+
+
+    <!-- Product 3: Long Style Wig -->
+    <div class="product">
+
+        <h3>Long Style Wig - R700</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/long hair.png"
+             alt="Long Style Wig">
+
+        <!-- Product description -->
+        <p>
+            A longer wig with a natural-looking appearance.
+        </p>
+
+    </div>
+
+
+    <!-- Separates product categories -->
+    <hr>
+
+
+    <!-- ==================================================
+         CANCER CARE CLOTHES
+         ================================================== -->
+
+    <!-- Clothing category heading -->
+    <h2>CANCER CARE CLOTHES</h2>
+
+    <!-- Description of cancer care clothing -->
+    <p>
+        Comfortable clothing designed to provide support and comfort
+        during cancer treatment and recovery.
+    </p>
+
+
+    <!-- Product 1: Soft Cotton T-Shirt -->
+    <div class="product">
+
+        <h3>Soft Cotton T-Shirt - R180</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/pink shirt.png"
+             alt="Soft Cotton T-Shirt">
+
+        <!-- Product description -->
+        <p>
+            Comfortable cotton T-shirt suitable for everyday wear.
+        </p>
+
+    </div>
+
+
+    <!-- Product 2: Comfort Hoodie -->
+    <div class="product">
+
+        <h3>Comfort Hoodie - R300</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/hoodie.png"
+             alt="Comfort Hoodie">
+
+        <!-- Product description -->
+        <p>
+            Warm and comfortable hoodie for cooler days.
+        </p>
+
+    </div>
+
+
+    <!-- Product 3: Cancer Awareness T-Shirt -->
+    <div class="product">
+
+        <h3>Cancer Awareness T-Shirt - R220</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/white shirt.png"
+             alt="Cancer Awareness T-Shirt">
+
+        <!-- Product description -->
+        <p>
+            A comfortable T-shirt that helps promote cancer awareness
+            and support.
+        </p>
+
+    </div>
+
+
+    <!-- Separates product categories -->
+    <hr>
+
+
+    <!-- ==================================================
+         PROTEIN AND NUTRITION PRODUCTS
+         ================================================== -->
+
+    <!-- Nutrition category heading -->
+    <h2>PROTEIN AND NUTRITION PRODUCTS</h2>
+
+    <!-- Nutrition information -->
+    <p>
+        Nutritional products that can be included as part of a
+        balanced diet. People receiving cancer treatment should
+        ask their healthcare professional about suitable nutrition.
+    </p>
+
+
+    <!-- Product 1: Protein Shake -->
+    <div class="product">
+
+        <h3>Protein Shake - R120</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/protein shake.png"
+             alt="Protein Shake">
+
+        <!-- Product description -->
+        <p>
+            Protein drink mix for nutritional support.
+        </p>
+
+    </div>
+
+
+    <!-- Product 2: Protein Bars -->
+    <div class="product">
+
+        <h3>Protein Bars - R30</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/protein bar.png"
+             alt="Protein Bar">
+
+        <!-- Product description -->
+        <p>
+            Convenient protein snack for between meals.
+        </p>
+
+    </div>
+
+
+    <!-- Product 3: Protein Powder -->
+    <div class="product">
+
+        <h3>Protein Powder - R250</h3>
+
+        <!-- Product image -->
+        <img src="IMAGES/protein powder.png"
+             alt="Protein Powder">
+
+        <!-- Product description -->
+        <p>
+            Protein powder that can be added to drinks or meals.
+        </p>
+
+    </div>
+
+
+    <!-- Separates products from the ordering section -->
+    <hr>
+
+
+    <!-- ==================================================
+         PLACE YOUR ORDER SECTION
+         ================================================== -->
+
+    <!-- Order section heading -->
+    <h2>PLACE YOUR ORDER</h2>
+
+    <!-- Instructions for placing an order -->
+    <p>
+        Select the products you would like to purchase and
+        contact us for more information about ordering and payment.
+    </p>
+
+
+    <!-- Button linking to the Contact page -->
+    <a class="order-button" href="contact.html">
+        CONTACT US TO ORDER
+    </a>
+
+
+    <!-- ==================================================
+         FOOTER SECTION
+         ================================================== -->
+
+    <!-- Website footer -->
+     <center>
+    <footer>
+
+        <!-- Copyright information -->
+        <p>
+            © 2026 N.L. Rikhotso Foundation. All Rights Reserved.
+        </p>
+
+    </footer>
+</center>
+</body>
+</html>
+
